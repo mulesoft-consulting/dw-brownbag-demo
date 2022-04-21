@@ -1,0 +1,212 @@
+{
+    "tradeOrganization":{
+       "parentOrgAceId":"0000243611",
+       "partnerType":"ZIMP",
+       "orgName":"ACME Incorporated",
+       "taxType":"US2",
+       "taxNumber":"134-52-2222",
+       "aceComplete":true,
+       "divName":"Acme div Name",
+       "akaName":"Acme aka Name",
+       "dbaName":"Acme dba name",
+       "orgStructure":"01",
+       "fiscalyearEnd":"2020-01-31",
+       "transportMode":"30",
+       "relatedCompanies":"",
+       "activeBond":"X",
+       "notificationType":"",
+       "status":"EIN Pending",
+       "foundedDate":"2017-03-01",
+       "filerCode":123,
+       "dpSite":123,
+       "natSanc":"",
+       "requestCBPIRNumber":"Y",
+       "issueDate":"2018-06-08"
+    },
+    "hazmatInsurance":{
+       "aceId":"0000271052",
+       "parentAceId":"0000243611",
+       "provider":"Insurance Provider Name",
+       "policyNo":"312-3921",
+       "dateIssued":"2017-03-01",
+       "dateExpired":"2020-01-01",
+       "amount":"1000000"
+    },
+    "userCredential":{
+       "userId":"user123",
+       "dateTimeStamp":"2020-01-15T01:15:22Z"
+    },
+    "extraProperties":{
+       "treatRecordIndicator":"Y",
+       "treatNumAsCnsgInd":"Y",
+       "treatNumForRfndsInd":"Y",
+       "treatNumAsOtherInd":"Y",
+       "treatNumAsDrwbkClmntInd":"Y",
+       "utilizationDescription":"utilizationDescription",
+       "lineItemNumber":"lineItemNumber",
+       "electronicSignature":"Y"
+    },
+    "bankInfo":{
+       "name":"Bank of America",
+       "routingNum":"051000017",
+       "city":"Alexandria",
+       "state":"VA",
+       "country":"USA"
+    },
+    "certification":{
+       "fullName":"Bob Hope",
+       "title":"Mr",
+       "telephone":"134-52-2222",
+       "telehoneExt":"3213",
+       "brokerName":"Amelia Mineheart",
+       "brokerPhone":"703-989-1212",
+       "brokerPhoneExt":"9812"
+    },
+    "relatedBusiness":[
+       {
+          "status":"Current",
+          "businessName":"Rel Biz One",
+          "businessId":"98653"
+       }
+    ],
+    "address":[
+       {
+          "value":{
+             "addressType":"STREET",
+             "addressNum":"0000626528",
+             "addressGUID":"5C89CCBC061AF780E10080AB0AB50284",
+             "coName":"coName",
+             "city":"ALEXANDRIA",
+             "zip":"22311-1701",
+             "poBox":"82736",
+             "street":"N Beauregard St",
+             "street2":"Street 2",
+             "street3":"Street 3",
+             "firmsCode":"firmsCode",
+             "houseNum":"1809",
+             "houseNum2":"houseNum2",
+             "building":"1",
+             "roomNum":"201",
+             "region":"VA",
+             "country":"US",
+             "remarks":"Remarks",
+             "floor":"2nd",
+             "county":"Arlington",
+             "communication":{
+                "telephone":"134-52-2222",
+                "telephoneExt":"777",
+                "fax":"202-555-7777",
+                "faxExt":"431",
+                "email":"myemail@example.com",
+                "URI":"www.example.com"
+             }
+          }
+       }
+    ],
+    "orgContactPerson":[
+       {
+          "orgRelationship":{
+             "parentAceId":"000269705",
+             "childAceId":"0000227663",
+             "relationshipType":"BUR001",
+             "function":"Z002",
+             "functionName":"functionName",
+             "validFrom":"2018-01-01",
+             "validUntil":"2020-10-01"
+          },
+          "portalId":"1234",
+          "firstName":"James",
+          "middleName":"J",
+          "lastName":"Hardy",
+          "orgName":"The Awesome Inc.",
+          "ssn":"134-52-2222",
+          "title":"Director",
+          "passportNumber":"134-52-2222",
+          "passportType":"ZTR740",
+          "countryOfIssuance":"US",
+          "passportExpiration":"2023-01-01",
+          "address":{
+             "value":{
+                "addressType":"STREET",
+                "addressNum":"0000626528",
+                "addressGUID":"5C89CCBC061AF780E10080AB0AB50284",
+                "coName":"coName",
+                "city":"ALEXANDRIA",
+                "zip":"22311-1701",
+                "poBox":"82736",
+                "street":"N Beauregard St",
+                "street2":"Street 2",
+                "street3":"Street 3",
+                "firmsCode":"firmsCode",
+                "houseNum":"1809",
+                "houseNum2":"houseNum2",
+                "building":"1",
+                "roomNum":"201",
+                "region":"VA",
+                "country":"US",
+                "remarks":"Remarks",
+                "floor":"2nd",
+                "county":"Arlington",
+                "communication":{
+                   "telephone":"134-52-2222",
+                   "telephoneExt":"777",
+                   "fax":"202-555-7777",
+                   "faxExt":"431",
+                   "email":"myemail@example.com",
+                   "URI":"www.example.com"
+                }
+             }
+          }
+       }
+    ],
+    "communication":[
+       {
+          "telephone":"134-52-2222",
+          "telephoneExt":"777",
+          "fax":"202-555-7777",
+          "faxExt":"431",
+          "email":"myemail@example.com",
+          "URI":"www.example.com"
+       }
+    ],
+    "orgIdentification":[
+       {
+          "isRemoved":false,
+          "identificationNumber":"12-1234567",
+          "identificationType":"ZAC001",
+          "identificationData":"Responsible Institution for ID",
+          "validFrom":"2018-01-01",
+          "validUntil":"2020-01-01",
+          "countryISO":"US",
+          "region":"VA"
+       }
+    ],
+    "orgCharacteristic":[
+       {
+          "atName":"CUSTOMS_PROGRAM",
+          "atWrt":"ABI"
+       }
+    ],
+    "customization":[
+       {
+          "cKey":"ZABI-PP",
+          "indicator":"Y",
+          "cValue":"CUSTOMS_PROGRAM",
+          "firstAmount":"100",
+          "secondAmount":"200",
+          "entryDate":"2019-06-10",
+          "validFrom":"2019-06-10",
+          "validTo":"2019-09-10",
+          "status":"N"
+       }
+    ],
+    "comments":[
+       {
+          "commentName":"Joe Smith",
+          "text":"Comment text",
+          "date":"2020-03-02",
+          "author":"James Hardy"
+       }
+    ]
+ }
+ 
